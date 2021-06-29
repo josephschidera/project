@@ -1,0 +1,61 @@
+.about{
+    height: 380px;
+}
+
+#portfolio .container div img{
+    height: 100px;
+    width: 170px;
+}
+.pro{
+    display: block;
+    background: white;
+    padding: 1rem 0.2rem;
+    width: 170px;
+}
+.but{ 
+    height: 100px;
+    width: 170px;
+}
+.button{
+    text-decoration: none;
+    color: #333;
+    display: relative;
+    padding: 10px 5px ;
+}
+#services .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5rem;
+}
+.white{
+    width: 100%;
+}
+#Name{
+    width: 100%;
+}
+.card{
+    width: 250px;
+}
+#contact a{
+    position: relative;
+    top: 1rem;
+    left: 50%;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background: lightskyblue;
+    transition: all 0.5ss;
+}
+/*.card{
+    display: block;
+    text-align: center;
+    border:lightgrey  dotted;
+    padding: 1rem ;
+    height: 400px;
+    width: 300px;
+
+}
+.card div{
+    background: lightslategray;
+    margin: 0 7rem;
+    padding: 3px ;
+}

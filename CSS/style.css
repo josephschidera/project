@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: url(../img/road.jpg) no-repeat center center/cover;
+    height: 40vh;
+}
+header nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #77777779;
+}
+header div .logo{
+    padding: 0 1rem;
+    color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+header div ul{
+    display: flex;  
+}
+header div ul li{
+    padding: 0 0.5rem;
+    list-style: none;
+}
+header div ul li a{
+    text-decoration: none;
+    color: burlywood;
+    transition: all 0.2s;
+}
+header div ul li a:hover{
+background: cadetblue;
+padding: 5px;
+border-radius: 3px;
+}
+header h1 {
+    justify-items: center;
+    text-align: center;
+    padding: 0rem 3rem;
+    padding-top: 6rem ;
+    color: cornsilk;
+}
+.btn{
+    text-decoration: none;
+    color: cornsilk;
+    display:inline-block ;
+    position: relative;
+    top: 1rem;
+    left: 40%;
+    background: lightskyblue;
+    padding: .8rem 3rem;
+}
+
+.btn:hover{
+    background: lightslategray;
+}
+section{ 
+    margin: 3%;
+    background: whitesmoke;
+}
+/* about*/
+section h1{
+    display:inline-block ;
+    position: relative;
+    top: 1rem;
+    left: 40%;
+    padding: 1rem 1rem;
+}
+ .first {
+    justify-items: center;
+    text-align: center;
+    padding: 0rem 3rem;
+    padding-top: 1rem ;
+    color: black;
+}
+ .about{
+   display: flex;
+   height: 35vh;
+}
+
+.about_img, .about_content{
+    width: 50%;
+}
+.about_content{
+    overflow: hidden;
+}
+.about_img{
+    margin-right: 1rem;
+}
+
+.par p{
+    padding-bottom: 15px;
+    padding-left :5px ;
+}
+.t{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.btn-two{
+    text-decoration: none;
+    color: cornsilk;
+    display:inline-block ;
+    position: relative;
+    background: lightskyblue;
+    padding: 13px 13px;
+}
+/*portfolio*/
+#portfolio{
+    background: whitesmoke;
+}
+ #portfolio .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin: 3%;
+    margin-bottom: 3%;
+}
+
+#portfolio .container div img{
+    height: 300px;
+    width: 350px;
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 1rem 0.2rem;
+    width: 350px;
+}
+h2{
+    font-size: 15px;
+}
+/*help*/
+.but{ 
+    background: url(/img/make-up2.jpg) no-repeat center center/cover;
+    height: 300px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.but:before{
+    content: '';
+    background: rgba(grey, white, black, 0.79);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    z-index: -1;
+}
+ .button{
+    text-decoration: none;
+    color: #333;
+    display: relative;
+    padding:50px 30px ;
+}
+/* service */
+.card{
+    flex: 1;
+    text-align: center;
+    border:lightgrey  dotted;
+    padding: 1rem ;
+    height: 400px;
+    width: 250px;
+    background: white;
+
+}
+.card div{
+    background: lightslategray;
+    margin: 0 5rem;
+    padding: 3px ;
+}
+
+.serve{
+    text-align: center;
+    padding: 1rem;
+}
+#services .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 0.5rem;
+    padding-left: 2rem;
+}
+.btns{
+    text-decoration: none;
+    background: lightskyblue;
+    padding: 0.7rem;
+    transition: all 0.5s;
+}
+.btns:hover{
+    background: thistle;
+
+}
+/* contact*/
+
+#contact{
+    background: whitesmoke;
+}
+#contact .container{
+    display: flex;
+}
+.inputone{
+    width: 50%;
+    padding: 2rem;
+}
+#Name{
+    height: 3rem;
+    width: 47%;
+    padding: 5px;
+}
+ #email{
+    height: 3rem;
+    width: 100%;
+    background: white;
+}
+.white{
+    background: white;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+#contact a{
+    position: relative;
+    top: 1rem;
+    left: 70%;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    background: lightskyblue;
+    transition: all 0.5ss;
+}
+#contact a:hover{
+    color: snow;
+    background: slategray;
+}
+.back{
+    text-decoration: none;
+    color: black;
+    background-color: mediumslateblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #77777779;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+

@@ -1,0 +1,23 @@
+#portfolio .container div img{
+    height: 340px;
+    width: 240px;
+}
+.pro{
+    display: block;
+    background: white;
+    padding: 1rem 0.2rem;
+    width: 240px;
+}
+.but{ 
+    height: 340px;
+    width: 240px;
+}
+#services .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5rem;
+    padding-left: 7rem;
+}
+#contact a{
+    left: 40%;
+}
